@@ -31,39 +31,17 @@
 						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>do you want to know me?</h1>
-								<h3 class="typing" id="text1"></h3><br>
-								<h3 class="typing" id="text2"></h3>
-							
-								<script>
-									const text1 = "สวัสดีครับ คุณอยากรู้อะไรเกี่ยวกับผมหรือไม่?";
-									const text2 = "ถ้าคุณอยากรู้ คลิกที่ด้านล่างได้เลยครับ";
-									
-									function typeEffect(elementId, text, delay = 100) {
-										let index = 0;
-										function type() {
-											if (index < text.length) {
-												document.getElementById(elementId).innerHTML += text.charAt(index);
-												index++;
-												setTimeout(type, delay);
-											}
-										}
-										type();
-									}
-							
-									document.addEventListener("DOMContentLoaded", () => {
-										typeEffect("text1", text1, 100);
-										setTimeout(() => {
-											typeEffect("text2", text2, 100);
-										}, text1.length * 100); // เว้นระยะให้ประโยคแรกพิมพ์จบก่อน
-									});
-								</script>	
+								<h1>do you want to know me?</h1><br>
+								<p style="font-size: 24px;">สวัสดีครับ คุณอยากรู้อะไรเกี่ยวกับผมหรือไม่?</p>
+								<p style="font-size: 24px;">ถ้าคุณอยากรู้ คลิกที่ด้านล่างได้เลยครับ</p>
+
+								
 							</div>
 						</div>
 						<nav>
 							<ul>
 								<li><a href="#intro" >Intro</a></li>
-								<li><a href="#work" >Interest</a></li>
+								<li><a href="#work" >Work</a></li>
 								<li><a href="#about" >About</a></li>
 								<li><a href="#contact" >Contact</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->

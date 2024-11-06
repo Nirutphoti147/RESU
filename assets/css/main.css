@@ -611,7 +611,7 @@ input, select, textarea {
 
 			ul.icons li a {
 				border-radius: 100%;
-				box-shadow: inset 0 0 0 1px #ffffff;
+				box-shadow: inset 0 0 0 1px #000000;
 				display: inline-block;
 				height: 2.25rem;
 				line-height: 2.25rem;
@@ -1306,10 +1306,4 @@ input, select, textarea {
 			transform: scale(1.05); /* ขยายภาพขึ้นเมื่อเอาเมาส์ไปวาง */
 			opacity: 0.9;           /* ทำให้ภาพโปร่งใสเล็กน้อย */
 		}
-		  .typing {
-            display: inline;
-            border-right: 2px solid black;
-            white-space: nowrap;
-            overflow: hidden;
-        }
 		
