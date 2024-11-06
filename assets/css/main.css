@@ -1286,7 +1286,7 @@ input, select, textarea {
 		h1 {
             font-size: 40px;
             font-weight: bold;
-            background: linear-gradient(90deg, rgb(255, 255, 255), rgb(116, 116, 116)); /* ไล่สีจากขาวไปน้ำเงิน */
+            background: linear-gradient(90deg, rgb(255, 255, 255), rgb(73, 73, 73)); /* ไล่สีจากขาวไปน้ำเงิน */
             background-size: 200% 100%; /* ขยายพื้นที่ไล่สี */
             background-position: left; /* เริ่มที่ด้านซ้าย */
             animation: gradientFlow 5s linear infinite; /* เริ่มแอนิเมชัน */
