@@ -1694,7 +1694,7 @@ input, select, textarea {
 		}
 		
 		.oF8hfouh:hover {
-			transform: scale(1.05); /* ขยายภาพขึ้นเมื่อเอาเมาส์ไปวาง */
+			transform: scale(1.1); /* ขยายภาพขึ้นเมื่อเอาเมาส์ไปวาง */
 			opacity: 0.9;           /* ทำให้ภาพโปร่งใสเล็กน้อย */
 		}
 		
