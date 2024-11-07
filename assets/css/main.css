@@ -749,7 +749,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			/*background-image: url("../../images/bg.gif");*/
+			background-image: url("../../images/bg.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1259,23 +1259,6 @@ input, select, textarea {
 		html, body {
 			height: 100%;
 		}
-		
-		.video-background {
-			position: fixed;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			overflow: hidden;
-			z-index: -1; /* ทำให้วิดีโอติดอยู่ด้านหลัง */
-		}
-		
-		video {
-			width: 100%;
-			height: 100%;
-			object-fit: cover; /* ทำให้วิดีโอเต็มพื้นที่ */
-		}
-		
 		.content {
 			position: relative;
 			z-index: 1; /* ทำให้เนื้อหาอยู่ด้านหน้า */
@@ -1306,4 +1289,9 @@ input, select, textarea {
 			transform: scale(1.05); /* ขยายภาพขึ้นเมื่อเอาเมาส์ไปวาง */
 			opacity: 0.9;           /* ทำให้ภาพโปร่งใสเล็กน้อย */
 		}
-		
+		body, html {
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			overflow: hidden;
+		}
