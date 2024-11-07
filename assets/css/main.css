@@ -1,3 +1,17 @@
+
+/* Updated font styles */
+body, p, h1, h2, h3, h4, h5, h6, a, span, div {
+    font-family: 'Roboto', Arial, sans-serif;  /* Adding a modern, readable font stack */
+}
+
+/* Additional font settings to enhance readability */
+body {
+    line-height: 1.6;  /* Improve line spacing for readability */
+    font-size: 16px;   /* Default font size */
+    color: #333;       /* Set a neutral color for easy reading */
+}
+
+/* Original content below */
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
