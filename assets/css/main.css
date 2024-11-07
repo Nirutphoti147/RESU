@@ -1675,7 +1675,7 @@ input, select, textarea {
 		}
 		
 		h1 {
-            font-size: 40px;
+            font-size: 50px;
             font-weight: bold;
             background: linear-gradient(90deg, rgb(0, 60, 255), rgb(255, 255, 255)); /* ไล่สีจากขาวไปน้ำเงิน */
             background-size: 200% 100%; /* ขยายพื้นที่ไล่สี */
@@ -1698,3 +1698,18 @@ input, select, textarea {
 			opacity: 0.9;           /* ทำให้ภาพโปร่งใสเล็กน้อย */
 		}
 		
+		h2 {
+            font-size: 40px;
+            font-weight: bold;
+            background: linear-gradient(90deg, rgba(255, 161, 161, 0.925), rgb(255, 255, 255)); /* ไล่สีจากขาวไปน้ำเงิน */
+            background-size: 200% 100%; /* ขยายพื้นที่ไล่สี */
+            background-position: left; /* เริ่มที่ด้านซ้าย */
+            animation: gradientFlow 5s linear infinite; /* เริ่มแอนิเมชัน */
+            -webkit-background-clip: text; /* ใช้คลิปพื้นหลังสำหรับข้อความ */
+            -webkit-text-fill-color: transparent; /* ทำให้ข้อความโปร่งใส */
+        }
+
+        @keyframes gradientFlow {
+            0% { background-position: left; } /* เริ่มที่ด้านซ้าย */
+            100% { background-position: right; } /* ไปยังด้านขวา */
+        }
