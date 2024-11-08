@@ -1874,3 +1874,26 @@ h2 {
 
 	/* ไปยังด้านขวา */
 }
+.icon-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+	flex-wrap: wrap; /* ทำให้ไอคอนแสดงเป็นแถวใหม่หากไม่มีพื้นที่พอ */
+	font-size: 2em;
+	padding: 20px;
+}
+
+@media (max-width: 768px) {
+	.icon-container {
+		gap: 10px; /* ลดช่องว่างระหว่างไอคอน */
+		font-size: 1.5em; /* ลดขนาดของไอคอน */
+	}
+}
+
+@media (max-width: 480px) {
+	.icon-container {
+		gap: 5px; /* ลดช่องว่างลงอีก */
+		font-size: 1.2em; /* ลดขนาดของไอคอนอีก */
+	}
+}
